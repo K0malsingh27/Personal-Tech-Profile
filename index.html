@@ -1,81 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Komal Singh | Personal Tech Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal Singh | Personal Tech Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1 class="typing">Komal Singh</h1>
-    <p>Personal Tech Profile | Aspiring Web Developer</p>
-</header>
+  <header>
+    <h1>Komal Singh</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-    <a href="#interest">Interest</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about" class="card">
+  <section>
     <h2>About Me</h2>
-    <p>I am Komal Singh, a B.Tech student passionate about web development and programming.</p>
-    <p>I enjoy learning Java, C++, and HTML and creating creative projects.</p>
-</section>
+    <p>I am learning web development and building projects using HTML, CSS, and JavaScript.</p>
+  </section>
 
-<section id="skills" class="card">
+  <section>
     <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (Learning)</li>
+    </ul>
+  </section>
 
-    <div class="skill">
-        <p>Java</p>
-        <div class="bar"><div class="fill java"></div></div>
-    </div>
-
-    <div class="skill">
-        <p>C++</p>
-        <div class="bar"><div class="fill cpp"></div></div>
-    </div>
-
-    <div class="skill">
-        <p>HTML</p>
-        <div class="bar"><div class="fill html"></div></div>
-    </div>
-
-</section>
-
-<section id="education" class="card">
-    <h2>Education</h2>
-    <p>School: C.M.A Higher Secondary School (Satna)</p>
-    <p>Board: CBSE</p>
-    <p>B.Tech: Oriental College of Technology (2024–2028) (Bhopal)</p>
-</section>
-
-<section id="interest" class="card">
-    <h2>Interest</h2>
-    <p>Stone Painting 🎨</p>
-    <p>Music 🎵</p>
-</section>
-
-<section id="contact" class="card">
-    <h2>Contact</h2>
-    <p>Email: singhkomal0229@gmail.com</p>
-    <p>Phone: 7974512140</p>
-</section>
-
-<script>
-    const sections = document.querySelectorAll("section");
-
-    window.addEventListener("scroll", () => {
-        sections.forEach(sec => {
-            const top = sec.getBoundingClientRect().top;
-            if(top < window.innerHeight - 100){
-                sec.classList.add("show");
-            }
-        });
-    });
-</script>
+  <section>
+    <h2>Projects</h2>
+    <p>Coming soon...</p>
+  </section>
 
 </body>
 </html>
